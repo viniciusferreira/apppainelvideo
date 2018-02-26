@@ -1,0 +1,8 @@
+{
+  "name": "appenison",
+  "app_id": "8c6a8ecb",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
