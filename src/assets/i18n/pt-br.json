@@ -8,7 +8,7 @@
   "LOGIN": "Entrar",
   "SIGNUP": "Cadastre-se",
 
-  "TAB1_TITLE": "Itens",
+  "TAB1_TITLE": "Vídeos",
   "TAB2_TITLE": "Busca",
   "TAB3_TITLE": "Configurações",
 
@@ -28,11 +28,11 @@
 
   "TUTORIAL_SLIDE4_TITLE": "Pronto para Usar?",
 
-  "WELCOME_INTRO": "O ponto de partida para seu próximo app feito no Ionic",
+  "WELCOME_INTRO": "Assista vídeos exclusivo com as modelos mais quentes da WEB",
 
   "SETTINGS_TITLE": "Configurações",
-  "SETTINGS_OPTION1": "Opção 1",
-  "SETTINGS_OPTION2": "Opção 2",
+  "SETTINGS_OPTION1": "Histórico de visualisação",
+  "SETTINGS_OPTION2": "Usuário",
   "SETTINGS_OPTION3": "Opção 3",
   "SETTINGS_OPTION4": "Opção 4",
 
@@ -49,7 +49,7 @@
   "SIGNUP_ERROR": "Não foi possível criar sua conta. Verifique seus dados e tente novamente.",
   "SIGNUP_BUTTON": "Cadastre-se",
 
-  "LIST_MASTER_TITLE": "Itens",
+  "LIST_MASTER_TITLE": "Vídeos",
 
   "ITEM_CREATE_TITLE": "Novo Item",
   "ITEM_CREATE_CHOOSE_IMAGE": "Adicionar Imagem",
@@ -64,5 +64,5 @@
   "CARDS_TITLE": "Social",
 
   "SEARCH_TITLE": "Busca",
-  "SEARCH_PLACEHOLDER": "Procure um item da lista, ex: \"Donald Duck\""
+  "SEARCH_PLACEHOLDER": "Procure um vídeo no site exemplo:loirinhas molhadas"
 }

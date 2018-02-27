@@ -14,6 +14,7 @@ import { Settings } from '../providers/providers';
 import { User } from '../providers/providers';
 import { Api } from '../providers/providers';
 import { MyApp } from './app.component';
+import { VideoDataProvider } from '../providers/video-data/video-data';
 
 // The translate loader needs to know where to load i18n files
 // in Ionic's static asset pipeline.
@@ -30,9 +31,9 @@ export function provideSettings(storage: Storage) {
    */
   return new Settings(storage, {
     option1: true,
-    option2: 'Ionitron J. Framework',
+    option2: 'Camera Caseira',
     option3: '3',
-    option4: 'Hello'
+    option4: 'Bem Vindo'
   });
 }
 
@@ -66,7 +67,8 @@ export function provideSettings(storage: Storage) {
     StatusBar,
     { provide: Settings, useFactory: provideSettings, deps: [Storage] },
     // Keep this to enable Ionic's runtime error handling during development
-    { provide: ErrorHandler, useClass: IonicErrorHandler }
+    { provide: ErrorHandler, useClass: IonicErrorHandler },
+    VideoDataProvider
   ]
 })
 export class AppModule { }
